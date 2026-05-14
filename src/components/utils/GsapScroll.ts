@@ -71,8 +71,6 @@ export function setCharTimeline(
         .to(".landing-container", { y: "40%", duration: 0.8 }, 0)
         .fromTo(".about-me", { y: "-50%" }, { y: "0%" }, 0);
 
-      const dummyObj = { rotation: { x: 0, y: 0 }, material: { opacity: 0 }, position: { y: 0, z: 0 } };
-      
       tl2
         .to(
           camera.position,
